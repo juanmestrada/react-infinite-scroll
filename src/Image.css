@@ -1,0 +1,16 @@
+.Image{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Image img{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .Image:not(:first-child){
+        padding: 5px 0;
+    }
+}
